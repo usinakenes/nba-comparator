@@ -4,12 +4,12 @@ import './Navbar.scss'
 
 const Navbar = () => {
   return (
-    <nav style={{height: '100px'}}>
+    <nav style={{height: '140px'}}>
         <div className='logo'>nba comparator</div>
-        {/* <ul className='navigation'>
+        <ul className='navigation'>
           <Link to='/playerStats' ><li>Stats comparator</li></Link>
           <Link to='/games' ><li>Latest games</li></Link>
-        </ul> */}
+        </ul>
       </nav>
   )
 }
