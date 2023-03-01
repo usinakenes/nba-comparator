@@ -1,0 +1,7 @@
+.list-item{
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    &:hover{
+        background-color: #eee;
+    }
+}

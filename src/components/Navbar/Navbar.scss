@@ -1,0 +1,36 @@
+nav{
+    background-color: rgb(41, 41, 124);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+
+    .logo{
+        margin-top: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .navigation{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        a{
+            text-decoration:none;
+
+            li{
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #fff;
+                list-style: none;
+            }
+        }
+
+        
+    }
+
+
+}
